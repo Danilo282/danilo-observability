@@ -37,11 +37,11 @@ Site profissional publicado via GitHub Pages, oferecendo pacotes prontos de serv
 
 ## 🔗 Acesse o site
 
-[👉 Clique aqui para visualizar o site](https://SEU_USUARIO.github.io/observability-site/)
+[👉 Clique aqui para visualizar o site](https://SEU_USUARIO.github.io/danilo-observability)
 
 ## 📞 Contato para contratação
 
-📲 WhatsApp: [Clique para conversar](https://wa.me/5511999999999)
+📲 WhatsApp: [Clique para conversar](https://wa.me/5511941294343)
 
 ---
 
