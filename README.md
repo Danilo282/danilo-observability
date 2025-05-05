@@ -37,7 +37,7 @@ Site profissional publicado via GitHub Pages, oferecendo pacotes prontos de serv
 
 ## 🔗 Acesse o site
 
-[👉 Clique aqui para visualizar o site](https://SEU_USUARIO.github.io/danilo-observability)
+[Clique aqui para visualizar o site -- 👉👉👉👉]: (https://danilo282.github.io/danilo-observability/)
 
 ## 📞 Contato para contratação
 
@@ -45,4 +45,4 @@ Site profissional publicado via GitHub Pages, oferecendo pacotes prontos de serv
 
 ---
 
-🔧 Projeto mantido por [Danilo](https://github.com/SEU_USUARIO) — especialista em Observabilidade, DevOps e Gestão Ágil.
+🔧 Projeto mantido por [Danilo](https://github.com/Danilo282) — especialista em Observabilidade, DevOps e Gestão Ágil.
