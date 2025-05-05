@@ -1,66 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DPS Tecnologia - Projetos e Serviços de Observabilidade</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-100 text-gray-800 font-sans">
-  <header class="bg-blue-700 text-white p-6 shadow-md">
-    <h1 class="text-3xl font-bold text-center">DPS Tecnologia  - Soluções em Observabilidade</h1>
-    <p class="text-center mt-2"> Grafana | Datadog | Dynatrace | GitHub</p>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pacotes de Observabilidade - DPS Tecnologia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+  </head>
 
-  <main class="max-w-6xl mx-auto py-10 px-4">
-    <h2 class="text-2xl font-semibold text-center mb-10">Escolha seu Pacote</h2>
+  <body class="bg-gray-100 text-gray-800 font-sans">
+    <header class="text-center py-10 bg-gray-900 text-white">
+      <h1 class="text-4xl font-bold mb-2">🌐 Pacotes de Observabilidade </h1>
+      <p class="text-lg">Soluções com Grafana, Datadog, Dynatrace e GitHub</p>
+    </header>
 
-    <div class="grid md:grid-cols-3 gap-8">
-      <!-- Pacote 1 -->
-      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
-        <h3 class="text-xl font-bold mb-4">Start Observability</h3>
-        <ul class="list-disc list-inside space-y-2 mb-4">
-          <li>1 dashboard no Grafana ou Datadog</li>
-          <li>2 alertas com webhook ou e-mail</li>
-          <li>Documentação simples de setup</li>
+    <main class="max-w-6xl mx-auto p-6 grid md:grid-cols-3 gap-6">
+      <!-- Start Observability - Grafana -->
+      <div class="bg-orange-500 text-white p-6 rounded-2xl shadow-md">
+        <div class="flex items-center mb-4">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" alt="Grafana" class="w-10 h-10 mr-3" />
+          <h2 class="text-2xl font-semibold">Start Observability</h2>
+        </div>
+        <p class="text-sm mb-4">Ideal para validar seu primeiro dashboard.</p>
+        <ul class="list-disc pl-5 space-y-1 mb-4 text-sm">
+          <li>1 dashboard (Grafana ou Datadog)</li>
+          <li>2 alertas simples</li>
+          <li>Documentação básica</li>
         </ul>
-        <p class="text-lg font-semibold mb-2">💰 R$ 297</p>
-        <p class="mb-4 text-sm">Entrega em até 3 dias úteis</p>
-        <a href="https://wa.me/5511941294343" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-800">Solicitar agora</a>
+        <p class="text-lg font-bold mb-4">R$297</p>
+        <a href="https://wa.me/5511941294343" target="_blank" class="bg-white text-orange-700 font-semibold px-4 py-2 rounded hover:bg-gray-100 transition">
+          Contratar via WhatsApp
+        </a>
       </div>
 
-      <!-- Pacote 2 -->
-      <div class="bg-white p-6 rounded-2xl shadow-lg border-2 border-blue-500">
-        <h3 class="text-xl font-bold mb-4">Pro Observability Setup</h3>
-        <ul class="list-disc list-inside space-y-2 mb-4">
+      <!-- Pro Observability Setup - Datadog -->
+      <div class="bg-purple-700 text-white p-6 rounded-2xl shadow-md">
+        <div class="flex items-center mb-4">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datadog/datadog-original.svg" alt="Datadog" class="w-10 h-10 mr-3" />
+          <h2 class="text-2xl font-semibold">Pro Observability Setup</h2>
+        </div>
+        <p class="text-sm mb-4">Automação e integração com GitHub.</p>
+        <ul class="list-disc pl-5 space-y-1 mb-4 text-sm">
           <li>2 dashboards personalizados</li>
-          <li>4 alertas com boas práticas SRE</li>
-          <li>Integração com CI/CD (GitHub Actions)</li>
-          <li>Suporte pós-entrega por 7 dias</li>
+          <li>4 alertas SRE-style</li>
+          <li>CI/CD com GitHub Actions</li>
+          <li>Suporte por 7 dias</li>
         </ul>
-        <p class="text-lg font-semibold mb-2">💰 R$ 697</p>
-        <p class="mb-4 text-sm">Entrega em até 5 dias úteis</p>
-        <a href="https://wa.me/5511941294343" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-800">Solicitar agora</a>
+        <p class="text-lg font-bold mb-4">R$697</p>
+        <a href="https://wa.me/5511941294343" target="_blank" class="bg-white text-purple-800 font-semibold px-4 py-2 rounded hover:bg-gray-100 transition">
+          Contratar via WhatsApp
+        </a>
       </div>
 
-      <!-- Pacote 3 -->
-      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
-        <h3 class="text-xl font-bold mb-4">Observability Strategy + Execução</h3>
-        <ul class="list-disc list-inside space-y-2 mb-4">
-          <li>Planejamento por squads + 1h consultoria</li>
-          <li>Até 4 dashboards + SLOs e DORA</li>
-          <li>Alertas inteligentes com runbooks</li>
-          <li>Integração com logs + treinamento gravado</li>
+      <!-- Observability Strategy - Dynatrace -->
+      <div class="bg-lime-600 text-white p-6 rounded-2xl shadow-md">
+        <div class="flex items-center mb-4">
+          <img src="https://static.dynatrace.com/globalresources/2019-04/logo-dynatrace.svg" alt="Dynatrace" class="w-10 h-10 mr-3" />
+          <h2 class="text-2xl font-semibold">Observability Strategy</h2>
+        </div>
+        <p class="text-sm mb-4">Pacote completo com estratégia e execução.</p>
+        <ul class="list-disc pl-5 space-y-1 mb-4 text-sm">
+          <li>Planejamento com squads</li>
+          <li>Dashboards + SLOs + DORA Metrics</li>
+          <li>Alertas + runbooks + logs</li>
+          <li>Treinamento gravado</li>
         </ul>
-        <p class="text-lg font-semibold mb-2">💰 R$ 1.497</p>
-        <p class="mb-4 text-sm">Entrega em 7 a 10 dias úteis</p>
-        <a href="https://wa.me/5511941294343" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-800">Solicitar agora</a>
+        <p class="text-lg font-bold mb-4">R$1.497</p>
+        <a href="https://wa.me/5511941294343" target="_blank" class="bg-white text-lime-700 font-semibold px-4 py-2 rounded hover:bg-gray-100 transition">
+          Contratar via WhatsApp
+        </a>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <footer class="text-center text-sm text-gray-600 mt-10 pb-6">
-    © 2025 DPS Tecnologia - Observabilidade Estratégica e Soluções para Gestão de Projetos Ágeis
-  </footer>
-</body>
+    <footer class="text-center text-sm text-gray-600 py-10">
+      Desenvolvido por <a href="https://github.com/Danilo282" class="underline hover:text-black">DPS Tecnologia</a> — GitHub Pages & TailwindCSS.
+    </footer>
+  </body>
 </html>
