@@ -7,28 +7,6 @@ Site profissional publicado via GitHub Pages, oferecendo pacotes prontos de serv
 - ✅ Dynatrace
 - ✅ Integração com GitHub e boas práticas DevOps/SRE
 
-## 📦 Pacotes disponíveis
-
-### 🟢 Start Observability - R$ 297
-- 1 dashboard no Grafana ou Datadog
-- 2 alertas simples com webhook ou e-mail
-- Documentação de setup
-- Entrega: até 3 dias úteis
-
-### 🔵 Pro Observability Setup - R$ 697
-- 2 dashboards personalizados
-- 4 alertas SRE-style
-- Integração com GitHub Actions (CI/CD)
-- Suporte por 7 dias
-- Entrega: até 5 dias úteis
-
-### 🟣 Observability Strategy + Execução - R$ 1.497
-- Planejamento com squads
-- Dashboards + SLOs + DORA Metrics
-- Alertas com runbooks + logs
-- Treinamento gravado
-- Entrega: 7 a 10 dias úteis
-
 ## 🚀 Tecnologias utilizadas
 
 - HTML5
@@ -37,7 +15,7 @@ Site profissional publicado via GitHub Pages, oferecendo pacotes prontos de serv
 
 ## 🔗 Acesse o site
 
-[Clique aqui para visualizar o site -- 👉👉👉👉]: (https://danilo282.github.io/danilo-observability/)
+[Clique aqui para visualizar o site -- 👉👉👉👉]: (https://danilo-observability.netlify.app/)
 
 ## 📞 Contato para contratação
 
@@ -46,3 +24,5 @@ Site profissional publicado via GitHub Pages, oferecendo pacotes prontos de serv
 ---
 
 🔧 Projeto mantido por [Danilo](https://github.com/Danilo282) — especialista em Observabilidade, DevOps e Gestão Ágil.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/852f9d5f-7ab6-4617-83f5-41fd30009021/deploy-status)](https://app.netlify.com/projects/danilo-observability/deploys)
